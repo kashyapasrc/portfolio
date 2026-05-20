@@ -7,6 +7,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaExternalLinkAlt,
+  FaJava,
 } from 'react-icons/fa';
 import {
   SiJavascript,
@@ -19,6 +20,8 @@ import {
   SiFirebase,
   SiVite,
   SiFigma,
+  SiKotlin,
+  SiKubernetes,
 } from 'react-icons/si';
 
 export const personalInfo = {
@@ -26,7 +29,7 @@ export const personalInfo = {
   title: 'Technical Architect',
   greeting: 'Hi there, I\'m',
   tagline:
-    'I build thoughtful, high-quality Mobile experiences with clean code and modern tools.',
+    'I build thoughtful, high-quality Mobile applications with clean code and modern tools.',
   bio: [
     'I\'m a passionate developer who loves turning ideas into polished digital products. With experience across the full stack, I focus on writing clean, maintainable code and crafting intuitive user interfaces.',
     'When I\'m not coding, you\'ll find me exploring new technologies, contributing to open source, or learning something new.',
@@ -34,7 +37,7 @@ export const personalInfo = {
   avatar: null,
   socials: {
     github: 'https://github.com/kashyapasrc/',
-    linkedin: 'https://linkedin.com/in/',
+    linkedin: 'https://www.linkedin.com/in/addepalli-sri-rama-chandra-kashyap-299b5186/',
     email: 'kashyap.asrc@gmail.com',
   },
 };
@@ -45,16 +48,18 @@ export const skills = [
     items: [
       { name: 'React', icon: FaReact },
       { name: 'JavaScript', icon: SiJavascript },
-      { name: 'TypeScript', icon: SiTypescript },
-      { name: 'HTML5', icon: SiHtml5 },
-      { name: 'CSS3', icon: SiCss },
-      { name: 'Tailwind CSS', icon: SiTailwindcss },
+      { name: 'Kotlin', icon:SiKotlin},
+      {name :'Java', icon: FaJava},
+    
+      
+    
+      
     ],
   },
   {
     category: 'Backend',
     items: [
-      { name: 'Node.js', icon: FaNodeJs },
+      
       { name: 'Python', icon: FaPython },
       { name: 'MongoDB', icon: SiMongodb },
       { name: 'PostgreSQL', icon: SiPostgresql },
@@ -68,45 +73,59 @@ export const skills = [
       { name: 'Docker', icon: FaDocker },
       { name: 'Vite', icon: SiVite },
       { name: 'Figma', icon: SiFigma },
+      {name:'Kubernetes', icon: SiKubernetes},
     ],
   },
 ];
 
 export const projects = [
   {
-    title: 'E-Commerce Platform',
+    title: 'Telugu Calendar APP',
     description:
-      'A full-stack e-commerce application with product management, cart functionality, and payment integration.',
+      'A telugu calendar app of panchangam, paksham, tithis, nakshatram, yoga, dosham, etc.',
     image: null,
-    tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    tags: ['Android', 'kotlin'],
     github: 'https://github.com/',
-    live: 'https://example.com/',
+    live: 'https://play.google.com/store/apps/details?id=com.vedica.dharmaprachara.sangam.calendar',
   },
   {
-    title: 'Task Management App',
+    title: 'East West Bank Retail APP',
     description:
-      'A collaborative task management tool with real-time updates, drag-and-drop boards, and team workspaces.',
+      'A complete banking application for onboarding and transcations, credit cards, debit cards, etc.',
     image: null,
-    tags: ['React', 'Firebase', 'Tailwind CSS'],
+    tags: ['Android', 'kotlin' ],
     github: 'https://github.com/',
-    live: 'https://example.com/',
+    live: 'https://play.google.com/store/apps/details?id=com.eastwest.mobile.dxp',
   },
-  {
-    title: 'Weather Dashboard',
-    description:
-      'An interactive weather dashboard with location search, 7-day forecasts, and beautiful data visualizations.',
-    image: null,
-    tags: ['JavaScript', 'REST API', 'Chart.js'],
-    github: 'https://github.com/',
-    live: null,
-  },
+  // {
+  //   title: 'Weather Dashboard',
+  //   description:
+  //     'An interactive weather dashboard with location search, 7-day forecasts, and beautiful data visualizations.',
+  //   image: null,
+  //   tags: ['JavaScript', 'REST API', 'Chart.js'],
+  //   github: 'https://github.com/',
+  //   live: null,
+  // },
 ];
 
 export const experience = [
   {
     role: 'Technical Architect',
     company: 'Hexaware Technolgies',
-    period: 'April 2021 – Present',
+    period: 'Sept 2024 – Present',
+    bullets: [
+      'Capture functional and non-functional requirements',
+      'Design high-level architecture',
+      'Evaluate trade-offs (cost, scale, latency)',
+      'Document decisions clearly',
+      'Define service boundaries',
+
+    ],
+  },
+  {
+    role: 'Senior Software Engineer',
+    company: 'Hexaware Technolgies',
+    period: 'April 2021 – Aug 2024',
     bullets: [
       'Led the redesign of the core product dashboard, improving user engagement by 35%.',
       'Built reusable component library used across 4 product teams.',
