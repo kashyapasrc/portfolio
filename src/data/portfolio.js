@@ -22,6 +22,7 @@ import {
   SiFigma,
   SiKotlin,
   SiKubernetes,
+  SiDocker,
 } from 'react-icons/si';
 
 export const personalInfo = {
@@ -44,36 +45,41 @@ export const personalInfo = {
 
 export const skills = [
   {
-    category: 'Frontend',
+    category: 'Agentic AI',
+    items: [
+      { name: 'LangChain', icon: null },
+      { name: 'LangGraph', icon: null },
+      { name: 'CrewAI', icon: null },
+      { name: 'AutoGen', icon: null },
+      { name: 'RAG', icon: null },
+      { name: 'MCP', icon: null },
+    ],
+  },
+  {
+    category: 'Development',
     items: [
       { name: 'React', icon: FaReact },
       { name: 'JavaScript', icon: SiJavascript },
       { name: 'Kotlin', icon:SiKotlin},
       {name :'Java', icon: FaJava},
-    
-      
-    
-      
-    ],
-  },
-  {
-    category: 'Backend',
-    items: [
-      
       { name: 'Python', icon: FaPython },
       { name: 'MongoDB', icon: SiMongodb },
       { name: 'PostgreSQL', icon: SiPostgresql },
       { name: 'Firebase', icon: SiFirebase },
+      {name:'Kubernetes', icon: SiKubernetes},
+      {name:'Docker', icon: FaDocker},
+    
     ],
   },
+  
   {
     category: 'Tools',
     items: [
       { name: 'Git', icon: FaGitAlt },
-      { name: 'Docker', icon: FaDocker },
+      
       { name: 'Vite', icon: SiVite },
       { name: 'Figma', icon: SiFigma },
-      {name:'Kubernetes', icon: SiKubernetes},
+      
     ],
   },
 ];
@@ -91,28 +97,28 @@ export const projects = [
   {
     title: 'East West Bank Retail APP',
     description:
-      'A complete banking application for onboarding and transcations, credit cards, debit cards, etc.',
+      'A complete banking application for onboarding and transcations, payments via credit cards, debit cards, etc.',
     image: null,
     tags: ['Android', 'kotlin' ],
     github: 'https://github.com/',
     live: 'https://play.google.com/store/apps/details?id=com.eastwest.mobile.dxp',
   },
-  // {
-  //   title: 'Weather Dashboard',
-  //   description:
-  //     'An interactive weather dashboard with location search, 7-day forecasts, and beautiful data visualizations.',
-  //   image: null,
-  //   tags: ['JavaScript', 'REST API', 'Chart.js'],
-  //   github: 'https://github.com/',
-  //   live: null,
-  // },
+  {
+    title: 'Weather App',
+    description:
+      'A complete banking application for onboarding and transcations, payments via credit cards, debit cards, etc.',
+    image: null,
+    tags: ['Android', 'kotlin', ],
+    github: 'https://github.com/',
+    live: "https://play.google.com/store/apps/details?id=com.cloudbanco.bdp.promerica.android.fi.cr",
+  },
 ];
 
 export const experience = [
   {
     role: 'Technical Architect',
     company: 'Hexaware Technolgies',
-    period: 'Sept 2024 – Present',
+    period: 'Jan 2025 – Present',
     bullets: [
       'Capture functional and non-functional requirements',
       'Design high-level architecture',
@@ -120,6 +126,15 @@ export const experience = [
       'Document decisions clearly',
       'Define service boundaries',
 
+    ],
+  },
+  {
+    role: 'Lead Engineer',
+    company: 'Hexaware Technolgies',
+    period: 'May 2022 – Dec 2024',
+    bullets: [
+      'Mentored developers and conducted code reviews.',
+      'Designing solution approach',
     ],
   },
   {
@@ -156,14 +171,14 @@ export const experience = [
 
 export const education = [
   {
-    degree: 'Bachelor of Science in Computer Science',
-    institution: 'University of Technology',
-    period: '2018 – 2022',
+    degree: 'Masters in Computer Science and Engineering',
+    institution: 'JNTU Kakinada',
+    period: '2014 – 2016',
   },
   {
-    degree: 'Full-Stack Web Development Certification',
-    institution: 'Online Academy',
-    period: '2021',
+    degree: 'Bachelors in Computer Science and Engineering',
+    institution: 'Krishna University',
+    period: '2011 – 2014',
   },
   
 ];

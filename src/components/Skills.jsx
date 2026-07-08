@@ -50,7 +50,7 @@ export default function Skills() {
                   const Icon = skill.icon;
                   return (
                     <span key={skill.name} className="skill-item">
-                      <Icon />
+                      {Icon && <Icon />}
                       {skill.name}
                     </span>
                   );
