@@ -1,7 +1,7 @@
 import { motion, useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { personalInfo, FaGithub, FaLinkedin } from '../data/portfolio';
-import { FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope, FaYoutube } from 'react-icons/fa';
 
 export default function Contact() {
   const ref = useRef(null);
@@ -61,6 +61,14 @@ export default function Contact() {
                 aria-label="Email"
               >
                 <FaEnvelope />
+              </a>
+              <a
+                href={personalInfo.socials.youtube}
+                aria-label="Youtube"
+                target="_blank"
+                
+              >
+                <FaYoutube />
               </a>
             </div>
           </div>

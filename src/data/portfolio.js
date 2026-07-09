@@ -40,6 +40,7 @@ export const personalInfo = {
     github: 'https://github.com/kashyapasrc/',
     linkedin: 'https://www.linkedin.com/in/addepalli-sri-rama-chandra-kashyap-299b5186/',
     email: 'kashyap.asrc@gmail.com',
+    youtube:'https://www.youtube.com/@codeholic8868'
   },
 };
 
