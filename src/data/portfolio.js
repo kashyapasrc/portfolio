@@ -95,7 +95,7 @@ export const projects = [
     live: 'https://play.google.com/store/apps/details?id=com.vedica.dharmaprachara.sangam.calendar',
   },
   {
-    title: 'East West Bank Retail APP',
+    title: 'East West Bank Retail APP - EasyWay',
     description:
       'A complete banking application for onboarding and transcations, payments via credit cards, debit cards, etc.',
     image: null,
@@ -104,7 +104,7 @@ export const projects = [
     live: 'https://play.google.com/store/apps/details?id=com.eastwest.mobile.dxp',
   },
   {
-    title: 'Weather App',
+    title: 'Promerica Móvil',
     description:
       'A complete banking application for onboarding and transcations, payments via credit cards, debit cards, etc.',
     image: null,
